@@ -32,14 +32,12 @@ const introduce = (name: string, city?: string) => {
     }
     return `${name} lives somewhere.`
 } 
-console.log(introduce('chandan'));
 
 type AddFunction = (num1: number, num2: number) => number;
 
 const addNum: AddFunction = (a, b) => {
     return a + b;
 }
-
 
   return (
     <div>Day2</div>
