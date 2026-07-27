@@ -11,6 +11,7 @@ import './App.css'
 // import { Day2 } from './components/Day2'
 // import { TaskList } from './components/TaskList'
 // import type { Task } from './types/task';
+import { Header } from './components/Header';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Day2 />
       <AddTask tasks={tasks} setTasks={setTasks} />
       <TaskList tasks={tasks} setTasks={setTasks} /> */}
+      <Header />
     </>
   )
 }
